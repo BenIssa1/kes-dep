@@ -18,7 +18,7 @@ interface subscriberButtonModalProps {
 
 export const SubscribersButtonModal = ({ subscriber }: subscriberButtonModalProps) => {
     const [open, setOpen] = React.useState(false)
-    let subscriberDatas: Subscriber[] = []
+    const subscriberDatas: Subscriber[] = []
     subscriberDatas.push(subscriber)
 
 
