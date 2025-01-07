@@ -45,7 +45,7 @@ export function BeneficiaryList({ beneficiaries, onDelete }: BeneficiaryListProp
 
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Calendar className="h-4 w-4" />
-                  {format(beneficiary.createdAt, "dd MMMM yyyy", { locale: fr })}
+                 
                 </div>
 
                 <div className="flex items-center gap-2 text-muted-foreground">
